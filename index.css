@@ -6,17 +6,22 @@
 }
 
 body {
+    position: relative;
     font-family: Arial, sans-serif;
 }
 
 /* Header Styles */
 header {
+    top: 0;
+    position: fixed;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
     background-color: #333;
-    color: white;
+    color: rgb(230, 225, 225);
+    width: 100%;
 }
 
 .logo {
@@ -41,12 +46,14 @@ header {
 }
 
 .logo:hover {
+    cursor: pointer;
     color: #e76f51;
     transform: scale(1.05);
     transition: all 0.3s ease;
 }
 
 nav {
+    
     display: flex;
     align-items: center;
 }
@@ -112,8 +119,8 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: right 0.3s ease-in-out;
-    z-index: 2; /* Higher z-index to ensure it is on top */
+    transition: right 1s ease-in-out;
+    z-index: 2000; /* Higher z-index to ensure it is on top */
 }
 
 .mobile-menu ul {
@@ -161,6 +168,7 @@ nav {
 
 /* University Block Styles */
 .university-header {
+    margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
