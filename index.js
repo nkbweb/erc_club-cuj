@@ -26,7 +26,7 @@ const images = [
     {
         src: 'slide5.jpg',
         text: '5'
-    },
+    }
     
 ];
 
