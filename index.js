@@ -8,7 +8,7 @@ let currentIndex = 0;
 let autoSlideInterval;
 const images = [
     {
-        src: 'slide8.jpg',
+        src: 'slide1.jpg',
         text: '1.'
     },
     {
