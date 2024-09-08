@@ -27,10 +27,7 @@ const images = [
         src: 'slide5.jpg',
         text: '5'
     },
-    {
-        src: 'slide6.jpg',
-        text: '6'
-    }
+    
 ];
 
 function changeSlide(index) {
