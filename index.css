@@ -212,10 +212,7 @@ nav {
 .slider-container {
     position: relative;
     width: 100vw;
-    
-    height: 80vh;
-    
-    
+    height: 700px;
     overflow: hidden;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
@@ -223,15 +220,14 @@ nav {
 .main-slide {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 700px;
     overflow: hidden;
     
 }
 
 .main-slide img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 700px;
     transition: transform 2s ease, opacity 2s ease; /* Increased transition time */
 }
 
@@ -303,6 +299,23 @@ nav {
 }
 
 @media (max-width: 768px) {
+    .slider-container {
+        height: 500px;
+    }
+    
+    .main-slide {
+       
+        
+        height: 500px;
+        
+        
+    }
+    
+    .main-slide img {
+        
+        height: 500px;
+        
+    }
     .text {
         font-size: 1rem;
         padding: 10px 15px;
@@ -319,6 +332,24 @@ nav {
 }
 
 @media (max-width: 480px) {
+    .slider-container {
+        height: 300px;
+    }
+    
+    .main-slide {
+       
+        
+        height: 300px;
+        
+        
+    }
+    
+    .main-slide img {
+        
+        height: 300px;
+        
+    }
+
     .text {
         font-size: 1rem;
         padding: 5px 10px;
